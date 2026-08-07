@@ -6,6 +6,12 @@ This Excel project examines transaction-level electronics sales to determine whi
 
 The final interactive dashboard summarizes **$5.64 million in revenue**, **29,018 unique orders**, and **33,969 units sold**. City and product-category slicers allow users to explore the results by market and product group.
 
+## Main Business Question
+
+> Which products and categories drive electronics revenue, and how should decision-makers balance unit demand with revenue contribution?
+
+See the complete [Phase 2 Business Understanding](docs/02_business_understanding.md) and [Phase 3 Data Understanding](docs/03_data_understanding.md).
+
 ![Electronics Sales Dashboard](visuals/electronics-sales-dashboard.png)
 
 ## Business Questions
@@ -61,6 +67,8 @@ The resulting dataset contains **30,206 clean transaction lines**.
 | [`data/raw/Updated_sales.csv`](data/raw/Updated_sales.csv) | Original source data |
 | [`data/processed/ecommerce_sales_processed.csv`](data/processed/ecommerce_sales_processed.csv) | Cleaned transaction data |
 | [`notes/data-cleaning-and-methodology.md`](notes/data-cleaning-and-methodology.md) | KPI definitions, cleaning log, assumptions, and limitations |
+| [`docs/02_business_understanding.md`](docs/02_business_understanding.md) | Business decision, stakeholders, success measures, and claim boundaries |
+| [`docs/03_data_understanding.md`](docs/03_data_understanding.md) | Dataset grain, field roles, reconciliation, and analytical readiness |
 
 ## Limitations
 
